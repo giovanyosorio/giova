@@ -52,6 +52,58 @@ a:hover{
   font-size: 4rem;
 }
 
+
+#contact{
+  padding-top: 1em;
+ border-top: 1px solid var(--hotmag);
+  background-color: var(--plum); 
+text-align: center;
+
+
+}
+#contact p{
+  text-align: center;
+  display: block;
+  width: 400px;
+  justify-content: center;
+  align-items: center;
+  margin: 2em auto ;
+  
+}
+#contact button{
+  background-color: var(--hotmag);
+  font-size: 1rem;
+  font-family: var(--sans);
+  color: var(--white);
+  padding: 15px;
+  border-radius: 10px;
+  border-bottom: 1px solid var(--hotmag);
+ 
+  
+}
+
+#contact button:hover{
+  cursor: pointer;
+  background-color: var(--magenta);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .cabecera{
   margin-top: 50px;
   padding: 1rem;
