@@ -22,14 +22,8 @@ body{
 h1,h2,h3{
   margin: 0;
 }
-a{
-  color: var(--magenta);
- 
-  text-decoration: none;
-}
-a:hover{
-  color: var(--hotmag);
-}
+
+
 
 #intro{
   padding: 5rem;
@@ -87,40 +81,44 @@ text-align: center;
   background-color: var(--magenta);
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.cabecera{
-  margin-top: 50px;
+/*nav bar*/
+nav{
+  font-family: var(--mono);
+  font-size: 80%;
   padding: 1rem;
-}
-.navegacion{
-  display: flex;
-  justify-content:space-between;
-}
-.ull  {
-display: flex;
 
 }
-.ull  >li {
+nav  h1 a{
+  font-family: var(--sans);
+  
+}
+nav ul{
   list-style: none;
-  padding: 5px;
-  }
-
-  .section{
-    background-color: var(--dkblue);
-  }
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+nav li:first-child{
+  flex-basis: 100%;
+  text-align: center;
+}
+nav [class*="fa-"] {
+  font-size: 150%;
+  color: var(--aqua);
+}
+nav h1 [class*="fa-"] {
+  font-size: 100%;
+  color: var(--aqua);
+}
+nav a {
+  color: var(--white);
+  text-decoration: none;
+  display: block;
+}
+nav a:hover,nav [class*="fa-"]:hover {
+  color: var(--magenta);
+}
