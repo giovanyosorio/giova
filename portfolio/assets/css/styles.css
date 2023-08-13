@@ -132,3 +132,16 @@ nav a:hover,nav [class*="fa-"]:hover {
 background-color: var(--hotmag);
 color: white;
 }
+/* Media query */
+@media (min-width: 850px) {
+  nav {
+    max-width: 1300px;
+    background-color: #0d314b;
+    margin: 0 auto;
+  }
+  nav li:first-child{
+    flex-basis: auto;
+    text-align: left;
+    margin-right:auto ;
+  }
+}
