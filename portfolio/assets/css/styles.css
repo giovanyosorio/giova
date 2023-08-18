@@ -178,11 +178,14 @@ text-align: center;
 
 }
 /*nav bar*/
+
 nav{
   font-family: var(--mono);
   font-size: 80%;
   padding: 2rem;
   margin: 0 auto;
+ 
+
 
 }
 nav  h1 a{
@@ -290,3 +293,4 @@ footer ul{
     justify-content: flex-end;
   }
 }
+
